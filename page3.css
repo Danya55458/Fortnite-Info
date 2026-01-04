@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+}
+
+a  {
+    color: Black;
+    text-decoration: none;
+}
+
+nav{
+   text-align: center; 
+}
+
+h1 {
+    position:relative;
+    text-align: center;
+}
+
+header{
+    background-color: rgb(43, 180, 226);
+    width: 601px;
+    height: 75px;
+}
+
+.b1:hover{
+    color:white;
+}
+
+.b2:hover{
+    color:white;
+}
+
+.b3:hover{
+    color:white;
+}
+
+.b4:hover{
+    color:white;
+}
+
+.b5:hover{
+    color:white;
+}
+
+.b6{
+    color:rgb(43, 180, 226);
+    background-color: white;
+    border-radius: 25%;
+    padding:10px;
+
+}
+
+p{
+    background-color: rgb(6, 128, 168);
+}
