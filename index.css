@@ -1,51 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: sans-serif;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
-a  {
-    color: Black;
-    text-decoration: none;
-}
-
-nav{
-   text-align: center; 
-}
-
-h1 {
-    position:relative;
+header {
+    background-color: rgb(43, 180, 226);
+    width: 100%;
+    padding: 20px 0;
     text-align: center;
 }
 
-header{
-    background-color: rgb(43, 180, 226);
-    width: 601px;
-    height: 75px;
+header h1 {
+    color: white;
+    font-size: 28px;
 }
 
-.b1:hover{
-    color:white;
+nav {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.b2:hover{
-    color:white;
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: all 0.3s;
 }
 
-.b3:hover{
-    color:white;
+nav a:hover {
+    color: white;
+    background-color: #2bb4e2;
 }
 
-.b4:hover{
-    color:white;
-}
-
-.b5:hover{
-    color:white;
-}
-
-.b6{
-    color:rgb(43, 180, 226);
+.b6 {
+    color: rgb(43, 180, 226);
     background-color: white;
     border-radius: 25%;
-    padding:10px;
+    padding: 10px 15px;
+}
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    padding: 50px;
+    background-image: url('https://preview.redd.it/dl34j1b1aw661.png?auto=webp&s=c13469e2ba0c9ed0d7feee9efac7cce0caf576ea');
+    background-size: cover;
+    background-position: center;
+}
+
+.text-card {
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 30px;
+    border-radius: 20px;
+    color: white;
+    max-width: 900px;
+    line-height: 1.6;
+    font-size: 18px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.main2{
+    background-image: url('https://files.bo3.gg/uploads/image/104196/image/webp-08c205f50229d69204f72c2abb9bcb56.webp');
+}
+
+main img {
+    display: none; 
+}
+
+footer {
+    background-color: rgb(43, 180, 226);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
 }
